@@ -4,7 +4,7 @@
 
 # GreekT5
 This repository hosts code for the paper:
-* [Giarelis, N., Mastrokostas, C., & Karacapilidis, N. (2023). GreekT5: A Series of Greek Sequence-to-Sequence Models for News Summarization.](https://arxiv.org/abs/2311.07767)
+* [Giarelis, N., Mastrokostas, C., & Karacapilidis, N. (2024). GreekT5: A Series of Greek Sequence-to-Sequence Models for News Summarization.](https://link.springer.com/chapter/10.1007/978-3-031-63215-0_5)
 
 
 ## About
@@ -41,17 +41,18 @@ print(output[0]['summary_text'])
 ```
 
 ## Citation
-The model has been officially released with the article: [GreekT5: A Series of Greek Sequence-to-Sequence Models for News Summarization](https://arxiv.org/abs/2311.07767).  
-If you use the model, please cite the following:
+The model has been officially released with the article:  
+[GreekT5: A Series of Greek Sequence-to-Sequence Models for News Summarization](https://link.springer.com/chapter/10.1007/978-3-031-63215-0_5).  
+If you use the code or model, please cite the following:
 
 ```bibtex
-@misc{giarelis2023greekt5,
-      title={GreekT5: A Series of Greek Sequence-to-Sequence Models for News Summarization}, 
-      author={Nikolaos Giarelis and Charalampos Mastrokostas and Nikos Karacapilidis},
-      year={2023},
-      eprint={2311.07767},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@inproceedings{giarelis2024greekt5,
+  title={GreekT5: Sequence-to-Sequence Models for Greek News Summarization},
+  author={Giarelis, Nikolaos and Mastrokostas, Charalampos and Karacapilidis, Nikos},
+  booktitle={IFIP International Conference on Artificial Intelligence Applications and Innovations},
+  pages={60--73},
+  year={2024},
+  organization={Springer}
 }
 ```
 
